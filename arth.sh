@@ -12,5 +12,6 @@ sum2=$(echo $a $b $c | awk '{print $1*$2+$3}')
 
 sum3=$(echo $a $b $c | awk '{print $1+$2/$3}')
 
+sum4=$(echo $a $b $c | awk '{print $1%$2+$3}')
 
-echo $sum $sum2 $sum3
+echo $sum $sum2 $sum3 $sum4
